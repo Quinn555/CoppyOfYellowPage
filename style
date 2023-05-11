@@ -1,0 +1,40 @@
+body {
+    background-color: #f5deb3;
+    
+  }
+  .topper {
+    background-color: orange;
+    height: 15px;
+    padding: 10px;
+  }
+  .topLeft {
+    flex-direction: row;
+    color: white;
+  }
+  .topRight {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+  .rectangle {
+    width: 200px;
+    border: 5px solid yellow;
+    margin: 20px;
+    float: left; /* I can't seem to find somthing to replace this with everytime I do the code sorta breaks */
+    position: relative;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .more-info {
+    bottom: 0;
+    width: 100px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+  }
